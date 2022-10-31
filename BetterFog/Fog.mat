@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fog
+  m_Shader: {fileID: 4800000, guid: 17c980786d6acc1478aff9f130de1d11, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SYNCUNITYDEFAULTFOGCOLOR_ON
+  - _USEUNITYDEFAULTFOGCOLOR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DetailNoiseScale: 0.161
+    - _Distance: 1
+    - _DistanceFadeEnd: 1000
+    - _DistanceFadeStart: 100
+    - _DistanceMult: 1000
+    - _DitherAmount: 0.374
+    - _DitherTrreshold: 1
+    - _FalloffExponent: 3
+    - _FogMax: 1
+    - _FogMin: 1
+    - _HeightFadeEnd: 20
+    - _HeightFadeLength: 20
+    - _HeightFadeStart: 0
+    - _HeightFalloffExponent: 1
+    - _Levels: 4
+    - _MatchUnityFogColor: 0
+    - _MaxDistance: 300
+    - _MaxHeight: 0
+    - _MinDistance: 10
+    - _NoiseMax: 0.072
+    - _NoiseMult: 0.251
+    - _NoiseScale: 0.02
+    - _SyncUnityDefaultFogColor: 1
+    - _UseUnityDefaultFogColor: 1
+    m_Colors:
+    - _FogFarColor: {r: 1, g: 0.015723169, b: 0.015723169, a: 1}
+    - _FogNearColor: {r: 0, g: 0.38333312, b: 1, a: 0}
+  m_BuildTextureStacks: []
